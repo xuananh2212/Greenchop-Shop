@@ -1,0 +1,42 @@
+.header {
+  padding: 20px 0;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  .header-menu {
+    ul {
+      display: flex;
+      li {
+        &:first-child {
+          a {
+            padding-left: 0;
+          }
+        }
+        a {
+          font-weight: 600;
+          font-size: 2rem;
+          padding: 0 30px;
+        }
+      }
+    }
+  }
+  .container {
+    padding: 0;
+  }
+  .header-content {
+    display: flex;
+    gap: 60px;
+  }
+  .header-icon {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart-icon {
+    position: relative;
+    justify-content: space-between;
+  }
+  .col-xxl-7-4 {
+    --column-number: 7.4;
+  }
+  .col-xxl-4-6 {
+    --column-number: 4.6;
+  }
+}

@@ -1,0 +1,100 @@
+@import "../parts/variables";
+.hezo-content {
+  margin: 0 25px;
+}
+.hezo-content__text {
+  margin-top: 60px;
+  display: block;
+  text-align: center;
+  color: $text-color;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+}
+.hezo--lv1 {
+  margin-top: 30px;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+}
+.hezo-content__desc {
+  margin-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.8;
+}
+
+// hezo img
+.hezo-img__inner {
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  background: #dcffca;
+  &::after {
+    content: "GREEN CHOP";
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    color: #216000;
+    font-size: 80px;
+    font-weight: 800;
+    opacity: 0.15;
+    transform-origin: left top;
+    rotate: 90deg;
+  }
+}
+
+.hezo-img__item {
+  position: relative;
+  width: 100%;
+  max-width: 736px;
+  right: 60px;
+}
+.col-12.mobile-gap {
+  margin: 30px 0 0 0;
+}
+.main .col-12.mobile-gap {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 576px) {
+  // hezo
+  .hezo-img__inner {
+    height: 700px;
+    &::after {
+      top: 60px;
+      font-size: 120px;
+    }
+  }
+  .hezo-img__item {
+    top: 50%;
+    translate: 0 -50%;
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hezo-content {
+    margin: 0 50px;
+  }
+  .hezo-img__inner {
+    max-width: 736px;
+    margin: 0 auto;
+  }
+  .hezo-content__text,
+  .hezo--lv1,
+  .hezo-content__desc {
+    text-align: left;
+  }
+  .hezo--lv1,
+  .hezo-content__desc {
+    margin-top: 40px;
+  }
+  .hezo-img__inner {
+    &::after {
+      font-size: 160px;
+    }
+  }
+}
