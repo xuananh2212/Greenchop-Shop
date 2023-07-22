@@ -175,6 +175,7 @@ img {
   --max-column: 12;
   --column-space: 20px;
   --spacer: 1rem;
+  --gap-row: 20px;
 }
 
 .container {
@@ -284,7 +285,7 @@ img {
   flex-basis: var(--column-width);
   max-width: var(--column-width);
   padding: 0 calc(var(--column-space) / 2);
-  margin-bottom: var(--column-space);
+  margin-bottom: var(--row-gap);
 }
 
 .col-1 {
@@ -758,6 +759,7 @@ input[id=header-menu-label]:checked ~ .overlay {
     font-size: 2rem;
   }
   .header .container {
+    width: 1440px;
     padding: 0;
     margin: 0 auto;
   }
