@@ -229,7 +229,6 @@
   }
 
   &--lv3 {
-    position: relative;
     text-align: center;
     font-size: 2.4rem;
     font-weight: 700;
@@ -574,9 +573,6 @@
     .products__items {
       margin-left: auto;
       margin-right: 0;
-    }
-    &__desc {
-      line-height: 1.7;
     }
   }
 }

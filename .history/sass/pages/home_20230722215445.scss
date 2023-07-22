@@ -229,20 +229,9 @@
   }
 
   &--lv3 {
-    position: relative;
     text-align: center;
     font-size: 2.4rem;
     font-weight: 700;
-    &::after {
-      content: "";
-      position: absolute;
-      top: calc(100% + 15px);
-      left: 50%;
-      translate: -50% 0;
-      width: 49px;
-      height: 2px;
-      background-color: #a3a3a3;
-    }
   }
   &__desc {
     text-align: center;
@@ -426,14 +415,8 @@
 
   // products
   .products {
-    margin-top: 120px;
     .container {
       margin: 0 25px;
-    }
-    &__items {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
     &__items__img {
       width: 100%;
@@ -574,9 +557,6 @@
     .products__items {
       margin-left: auto;
       margin-right: 0;
-    }
-    &__desc {
-      line-height: 1.7;
     }
   }
 }
