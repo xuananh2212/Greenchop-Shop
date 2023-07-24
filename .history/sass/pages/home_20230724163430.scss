@@ -712,22 +712,10 @@
       margin: 0 auto;
       max-width: 473px;
       font-size: 3.8rem;
-      line-height: 1.31;
     }
     &__desc {
-      font-size: 1.6rem;
-      margin: 30px auto 0 auto;
       max-width: 894px;
-    }
-    &__list {
-      height: 433px;
-      margin-top: 214px;
-      border-radius: 10px;
-      background: #fff0e7;
-    }
-    &__items {
-      transform: translateY(-140px);
-      border: none;
+      margin-top: 30px;
     }
   }
 }
@@ -830,7 +818,6 @@
 
   .products {
     .container {
-      padding: 0;
       margin: 0 auto;
     }
     .row {
@@ -862,7 +849,6 @@
   .posts {
     .container {
       padding: 0;
-      margin: 0 auto;
     }
     &__desc {
       line-height: 1.553;
@@ -879,29 +865,6 @@
       .col-xxl-4:nth-child(2) {
         .products__items__row {
           margin-top: 17.5px;
-        }
-      }
-    }
-  }
-
-  // quality
-
-  .quality {
-    .container {
-      margin: 0 auto;
-    }
-    .row {
-      justify-content: center;
-      column-gap: 30px;
-      .col-xxl-3-4-6 {
-        padding: 0;
-        --column-number: 3.46;
-
-        &:nth-child(1),
-        &:nth-child(3) {
-          .quality__items__content {
-            padding-right: 100px;
-          }
         }
       }
     }

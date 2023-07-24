@@ -18,10 +18,10 @@
 }
 .hezo-content__desc {
   margin-top: 30px;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.53;
-  text-align: ce;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
 }
 .hezo--lv1 {
   margin-top: 24px;
@@ -371,7 +371,8 @@
 
 // quality
 .quality {
-  margin: 100px auto 0 auto;
+  max-width: 473px;
+  margin-top: 100px;
 
   // heading lv2
   &--lv2 {
@@ -383,52 +384,12 @@
 
   // quality-desc
   &__desc {
-    padding: 0 25px;
     margin-top: 24px;
     color: $text-color;
     text-align: center;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.53;
-  }
-  // row
-  .row {
-    row-gap: 30px;
-  }
-  &__list {
-    counter-reset: section;
-    margin-top: 40px;
-  }
-  &__items {
-    margin: 0 auto;
-    max-width: 415px;
-    height: 431px;
-    counter-increment: section;
-    border-radius: 10px;
-    background: #fff;
-    border: 1px solid #a3a3a3;
-    overflow: hidden;
-    &__content {
-      padding: 29px 22px 30px 33px;
-    }
-    &__desc {
-      margin-top: 8px;
-      color: #19191b;
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.53;
-    }
-  }
-  &--lv3 {
-    color: #e05000;
-    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 2.4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.33;
-    &::before {
-      content: "0" counter(section) ".";
-    }
   }
 }
 
@@ -694,40 +655,8 @@
   // posts
   .posts {
     margin-top: 160px;
-    .container {
-      margin: 0 25px;
-    }
     .col-lg-4 {
       padding: 0;
-    }
-  }
-
-  // quality
-  .quality {
-    .container {
-      margin: 0 25px;
-    }
-    margin-top: 120px;
-    &--lv2 {
-      margin: 0 auto;
-      max-width: 473px;
-      font-size: 3.8rem;
-      line-height: 1.31;
-    }
-    &__desc {
-      font-size: 1.6rem;
-      margin: 30px auto 0 auto;
-      max-width: 894px;
-    }
-    &__list {
-      height: 433px;
-      margin-top: 214px;
-      border-radius: 10px;
-      background: #fff0e7;
-    }
-    &__items {
-      transform: translateY(-140px);
-      border: none;
     }
   }
 }
@@ -830,7 +759,6 @@
 
   .products {
     .container {
-      padding: 0;
       margin: 0 auto;
     }
     .row {
@@ -862,7 +790,6 @@
   .posts {
     .container {
       padding: 0;
-      margin: 0 auto;
     }
     &__desc {
       line-height: 1.553;
@@ -879,29 +806,6 @@
       .col-xxl-4:nth-child(2) {
         .products__items__row {
           margin-top: 17.5px;
-        }
-      }
-    }
-  }
-
-  // quality
-
-  .quality {
-    .container {
-      margin: 0 auto;
-    }
-    .row {
-      justify-content: center;
-      column-gap: 30px;
-      .col-xxl-3-4-6 {
-        padding: 0;
-        --column-number: 3.46;
-
-        &:nth-child(1),
-        &:nth-child(3) {
-          .quality__items__content {
-            padding-right: 100px;
-          }
         }
       }
     }

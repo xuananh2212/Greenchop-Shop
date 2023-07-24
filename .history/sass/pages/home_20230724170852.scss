@@ -896,13 +896,6 @@
       .col-xxl-3-4-6 {
         padding: 0;
         --column-number: 3.46;
-
-        &:nth-child(1),
-        &:nth-child(3) {
-          .quality__items__content {
-            padding-right: 100px;
-          }
-        }
       }
     }
   }
