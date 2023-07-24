@@ -1109,11 +1109,6 @@
       margin: 0 auto;
     }
     &__group {
-      &__content {
-        position: relative;
-        top: -9px;
-        left: 9px;
-      }
       &__img {
         img {
           margin: 0 auto 0 0;
@@ -1123,24 +1118,8 @@
     .row {
       margin: 0;
       justify-content: space-between;
-      align-items: flex-end;
       [class^="col-"] {
         padding: 0;
-      }
-      .form-cta {
-        margin: 32px 0 0 0;
-        &__group {
-          &:nth-child(2) {
-            gap: 21px;
-          }
-          &:last-child {
-            margin-top: 32px;
-          }
-        }
-
-        textarea {
-          height: 178px;
-        }
       }
     }
   }

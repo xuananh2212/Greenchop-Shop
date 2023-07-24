@@ -1109,11 +1109,6 @@
       margin: 0 auto;
     }
     &__group {
-      &__content {
-        position: relative;
-        top: -9px;
-        left: 9px;
-      }
       &__img {
         img {
           margin: 0 auto 0 0;
@@ -1135,6 +1130,11 @@
           }
           &:last-child {
             margin-top: 32px;
+          }
+          &__content {
+            position: relative;
+            top: -9px;
+            left: 9px;
           }
         }
 

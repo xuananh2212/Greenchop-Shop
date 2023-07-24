@@ -1109,11 +1109,6 @@
       margin: 0 auto;
     }
     &__group {
-      &__content {
-        position: relative;
-        top: -9px;
-        left: 9px;
-      }
       &__img {
         img {
           margin: 0 auto 0 0;
@@ -1137,7 +1132,8 @@
             margin-top: 32px;
           }
         }
-
+        &__group:last-child {
+        }
         textarea {
           height: 178px;
         }
