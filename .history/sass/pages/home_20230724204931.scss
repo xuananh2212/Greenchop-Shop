@@ -529,13 +529,6 @@
   .hezo-content__desc {
     text-align: left;
   }
-  .hezo--lv1 {
-    font-size: 3.6rem;
-  }
-  .hezo-content__text {
-    margin-top: 0;
-    font-size: 4.4rem;
-  }
   .hezo--lv1,
   .hezo-content__desc {
     margin-top: 40px;
@@ -595,29 +588,17 @@
 
   // services
   .services {
-    .container {
-      margin: 0 50px;
-    }
     margin-top: 160px;
     &--lv2 {
       font-size: 2.4rem;
     }
     &__items {
-      max-width: 346px;
-      margin: 0 auto;
       &__img {
         img {
           width: 67px;
           height: 67px;
         }
       }
-      &__desc {
-        font-size: 1.8rem;
-        max-width: 260px;
-      }
-    }
-    .row {
-      row-gap: 40px;
     }
   }
 }
@@ -973,28 +954,6 @@
             padding-right: 100px;
           }
         }
-      }
-    }
-  }
-
-  // services
-  .services {
-    .container {
-      margin: 0 auto;
-    }
-    &__items {
-      &__desc {
-        height: 117px;
-      }
-    }
-    .row {
-      margin: 0;
-      row-gap: 47px;
-      column-gap: 63px;
-      justify-content: center;
-      .col-xxl-2-8-8 {
-        padding: 0;
-        --column-number: 2.88;
       }
     }
   }

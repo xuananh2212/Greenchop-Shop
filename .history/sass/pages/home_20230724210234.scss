@@ -532,10 +532,6 @@
   .hezo--lv1 {
     font-size: 3.6rem;
   }
-  .hezo-content__text {
-    margin-top: 0;
-    font-size: 4.4rem;
-  }
   .hezo--lv1,
   .hezo-content__desc {
     margin-top: 40px;
@@ -973,28 +969,6 @@
             padding-right: 100px;
           }
         }
-      }
-    }
-  }
-
-  // services
-  .services {
-    .container {
-      margin: 0 auto;
-    }
-    &__items {
-      &__desc {
-        height: 117px;
-      }
-    }
-    .row {
-      margin: 0;
-      row-gap: 47px;
-      column-gap: 63px;
-      justify-content: center;
-      .col-xxl-2-8-8 {
-        padding: 0;
-        --column-number: 2.88;
       }
     }
   }

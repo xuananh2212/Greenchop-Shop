@@ -987,15 +987,12 @@
         height: 117px;
       }
     }
-    .row {
-      margin: 0;
-      row-gap: 47px;
-      column-gap: 63px;
-      justify-content: center;
-      .col-xxl-2-8-8 {
-        padding: 0;
-        --column-number: 2.88;
-      }
+  }
+  .row {
+    row-gap: 47px;
+    column-gap: 63px;
+    .col-xxl-2-8-8 {
+      --column-number: 2.88;
     }
   }
 }
