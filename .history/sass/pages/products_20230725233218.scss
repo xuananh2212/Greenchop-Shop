@@ -1,0 +1,11 @@
+.blog {
+    &--lv2 {
+        color: var(--content, #2C2C2C);
+        /* Title/H2 */
+        font-family: Inter;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 131.523%;
+    }
+}

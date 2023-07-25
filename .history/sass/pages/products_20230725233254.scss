@@ -1,0 +1,14 @@
+@import "../parts/variables";
+
+.blog {
+    &--lv2 {
+        max-width: 658px;
+        color: $text-color;
+        /* Title/H2 */
+        font-family: Inter;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 131.523%;
+    }
+}

@@ -1,0 +1,16 @@
+@import "../parts/variables";
+
+.blog {
+    .container {
+        margin: 0 25px;
+    }
+
+    &--lv2 {
+        text-align: center;
+        max-width: 658px;
+        color: $text-color;
+        font-size: 3.2rem;
+        font-weight: 800;
+        line-height: 1.32;
+    }
+}

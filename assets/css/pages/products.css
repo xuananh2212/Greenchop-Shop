@@ -1,0 +1,119 @@
+.blog {
+  margin-top: 100px;
+}
+.blog .container {
+  padding: 0;
+  margin: 0 25px;
+}
+.blog .container .row {
+  margin: 0;
+  row-gap: 30px;
+}
+.blog .container .row [class^=col-] {
+  padding: 0;
+}
+.blog--lv2 {
+  text-align: center;
+  max-width: 660px;
+  color: #2c2c2c;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.32;
+}
+.blog__desc {
+  margin: 24px auto 0 auto;
+  max-width: 440px;
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.53;
+}
+.blog__content {
+  position: relative;
+}
+.blog__content img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.blog__imgs {
+  margin: 0 auto;
+  max-width: 604px;
+  position: relative;
+}
+.blog__imgs__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  top: 69px;
+  background-color: #fff;
+  filter: drop-shadow(19px 76px 90px rgba(0, 0, 0, 0.1));
+}
+
+@media screen and (min-width: 768px) {
+  .blog .container {
+    margin: 0 50px;
+  }
+  .blog .container .row {
+    align-items: center;
+    margin: 0 -10px 0 -10px;
+  }
+  .blog .container .row [class^=col-] {
+    padding: 10px;
+  }
+  .blog--lv2 {
+    text-align: left;
+    font-size: 3.8rem;
+  }
+  .blog__desc {
+    margin: 19px 0 0 0;
+    font-size: 1.6rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .blog {
+    margin-top: 160px;
+  }
+  .blog .container {
+    margin: 0 auto;
+  }
+  .blog .container .row {
+    margin: 0;
+  }
+  .blog .container .row [class^=col-] {
+    padding: 0;
+  }
+  .blog--lv2 {
+    text-align: left;
+    font-size: 3.8rem;
+  }
+  .blog__desc {
+    margin: 19px 0 0 0;
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  .blog__content {
+    padding: 63px 0 0 103px;
+  }
+  .blog__content img {
+    width: 195px;
+    height: 203px;
+  }
+  .blog__imgs__inner {
+    width: 469px;
+    height: 338px;
+  }
+  .blog__imgs__inner + img {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+/*# sourceMappingURL=products.css.map */
