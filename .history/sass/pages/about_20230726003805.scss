@@ -73,6 +73,7 @@
     opacity: 0.6;
   }
   &__content {
+    order: 1;
     position: relative;
     .testimonial__desc {
       margin: 30px auto 0 auto;
@@ -101,7 +102,6 @@
     z-index: 1;
   }
   .close-quote {
-    order: 1;
     align-self: flex-end;
   }
 }
