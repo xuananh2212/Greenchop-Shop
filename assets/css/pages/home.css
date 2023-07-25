@@ -908,6 +908,10 @@
   .hezo-quality .row .col-lg-4 {
     padding: 0;
   }
+  .hezo-quality .col-xxl-4:nth-child(2) .hezo-quality__items {
+    max-width: 411px;
+    width: 411px;
+  }
   .hezo-quality__bottom {
     margin-top: 30px;
     padding: 108px 135px 137px 136px;

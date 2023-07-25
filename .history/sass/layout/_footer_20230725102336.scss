@@ -8,7 +8,6 @@
       .footer__items {
         a {
           font-weight: 600;
-          line-height: 1.5;
         }
       }
     }
@@ -47,7 +46,7 @@
     .footer__items__link {
       text-align: center;
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       justify-content: center;
       gap: 8px;
       + .footer__items__link {
@@ -152,14 +151,7 @@
       .col-xxl-2 {
         &:nth-child(2) {
           .footer__items {
-            transform: translateX(-38px);
-          }
-        }
-      }
-      .col-xxl-3 {
-        &:nth-child(4) {
-          .footer__items {
-            transform: translateX(51px);
+            transform: translateX(-15px);
           }
         }
       }
@@ -174,23 +166,6 @@
       }
       &__desc {
         margin: 18px 0 0 0;
-      }
-    }
-    &__list {
-      .footer__items__link {
-        a {
-          line-height: 1.53;
-        }
-      }
-    }
-    &__bottom {
-      margin-top: 86px;
-      padding: 29px 0 32px 0;
-      &__social {
-        translate: 6px -3px;
-      }
-      &__notify {
-        translate: -8px 0;
       }
     }
   }
