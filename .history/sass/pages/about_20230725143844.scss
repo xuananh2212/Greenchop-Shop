@@ -1,0 +1,19 @@
+@import "../parts/variables";
+
+.hezo-about {
+  .container {
+    margin: 0 25px;
+    padding: 0;
+  }
+  padding: 69px 0 68px 0;
+  background: #f2ffec;
+  &--lv1 {
+    color: ;
+    /* Title/H1 (bold) */
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

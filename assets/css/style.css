@@ -162,6 +162,15 @@ img {
   --container-width: 1440px;
 }
 
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  margin-top: 130px;
+}
+
 * {
   padding: 0;
   margin: 0;

@@ -1,0 +1,191 @@
+@import "../parts/variables";
+// hezo-about
+.hezo-about {
+  .container {
+    margin: 0 25px;
+    padding: 0;
+  }
+  padding: 69px 0 68px 0;
+  background: #f2ffec;
+  &--lv1 {
+    color: $text-color;
+    font-size: 4.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+// about-us
+.about-us {
+  margin-top: 100px;
+  .row {
+    row-gap: 30px;
+  }
+  .container {
+    margin: 0 25px;
+    padding: 0;
+  }
+  &--lv2 {
+    color: $text-color;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.32;
+    margin-bottom: 30px;
+  }
+  &__desc {
+    margin: 0 auto;
+    max-width: 452px;
+    text-align: center;
+    color: var(--content, #2c2c2c);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.53;
+  }
+  &__items {
+    &:nth-of-type(2) {
+      .about-us__desc {
+        text-align: center;
+        max-width: 528px;
+        white-space: pre-line;
+      }
+    }
+    + .about-us__items {
+      margin-top: 60px;
+    }
+  }
+  &__imgs {
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 578px) {
+  // hezo-about
+  .hezo-about {
+    &--lv1 {
+      font-size: 5.2rem;
+      text-align: left;
+    }
+  }
+
+  // about-us
+
+  .about-us{
+    &--lv2{
+      font-size: 3.8rem;
+    }
+    &__desc {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 50px;
+    }
+  }
+  // about-us
+  .about-us{
+    .container{
+      margin: 0 50px;
+    }
+    .row {
+      align-items: center;
+    }
+    &__items{
+     .about-us__desc{
+      text-align: left;
+     }
+     &:nth-of-type(2){
+      .about-us__desc{
+        text-align: left;
+      }
+     }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 25px;
+    }
+  }
+  // about-us
+  .about-us{
+    .container{
+      margin: 0 25px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
+  // hezo-quality
+  .hezo-quality {
+    padding-bottom: 0;
+  }
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 auto;
+    }
+  }
+  // about-us
+  .about-us{
+    margin-top: 120px;
+    .container{
+      max-width: 1170px;
+      margin: 0 auto;
+    }
+    &--lv2{
+      position: relative;
+      left: -22px;
+    }
+    &__desc{
+      margin: 0;
+    }
+    &__items{
+      .about-us__items{
+        margin-top: 60px;
+      }
+      &:last-of-type{
+        .about-us__imgs{
+          img{
+            margin-left: auto;
+          }
+        }
+        .about-us__desc{
+          position: relative;
+    top: -12px;
+        }
+      }
+      &:first-of-type{
+        .about-us__imgs{
+          img{
+            margin-left: auto;
+          }
+        }
+      }
+    }
+    &__imgs{
+     img{
+      margin: 0;
+     }
+    }
+    .row{
+      margin: 0;
+      .col-xxl-6{
+        padding: 0;
+      }
+    }
+  }
+}

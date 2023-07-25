@@ -1,0 +1,85 @@
+@import "../parts/variables";
+// hezo-about
+.hezo-about {
+  .container {
+    margin: 0 25px;
+    padding: 0;
+  }
+  padding: 69px 0 68px 0;
+  background: #f2ffec;
+  &--lv1 {
+    color: $text-color;
+    font-size: 4.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+// about-us
+.about-us {
+  margin-top: 100px;
+  .container {
+    margin: 0 25px;
+    padding: 0;
+  }
+  &--lv2 {
+    color: $text-color;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.32;
+    margin-bottom: 30px;
+  }
+  &__desc {
+    max-width: 452px;
+    text-align: center;
+    color: var(--content, #2c2c2c);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.53;
+  }
+  &__items {
+    + .about-us__items {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 578px) {
+  // hezo-about
+  .hezo-about {
+    &--lv1 {
+      font-size: 5.2rem;
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 50px;
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 50px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 auto;
+    }
+  }
+}
