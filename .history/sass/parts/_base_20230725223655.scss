@@ -30,7 +30,7 @@ html {
 }
 
 
-@media screen and (min-width: 578px) {
+@media screen and(min-width: 578px) {
   // hezo-title
   .hezo-title {
     &--lv1 {
@@ -39,33 +39,15 @@ html {
     }
   }
 }
-@media screen and (min-width: 768px) {
-   //hezo-title
-   .hezo-title {
-    .container {
-      margin: 0 50px;
-    }
-  }
+@media screen and(min-width: 768px) {
   
 }
-@media screen and (min-width: 992px) {
-  //hezo-title
-  .hezo-title{
-    .container {
-      margin: 0 25px;
-    }
-  }
+@media screen and(min-width: 992px) {
   
 }
-@media screen and (min-width: 1200px) {
+@media screen and(min-width: 1200px) {
   
 }
-@media screen and (min-width: 1440px) {
-  //hezo-title
-  .hezo-title {
-    .container {
-      margin: 0 auto;
-    }
-  }
+@media screen and(min-width: 1440px) {
   
 }

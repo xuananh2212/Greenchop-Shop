@@ -1,4 +1,21 @@
 @import "../parts/variables";
+// hezo-title
+.hezo-about {
+  .container {
+    margin: 0 25px;
+    padding: 0;
+  }
+  padding: 69px 0 68px 0;
+  background: #f2ffec;
+  &--lv1 {
+    color: $text-color;
+    font-size: 4.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+}
 
 // about-us
 .about-us {
@@ -172,6 +189,14 @@
 }
 
 @media screen and (min-width: 578px) {
+  // hezo-about
+  .hezo-about {
+    &--lv1 {
+      font-size: 5.2rem;
+      text-align: left;
+    }
+  }
+
   // about-us
 
   .about-us {
@@ -195,7 +220,12 @@
 }
 
 @media screen and (min-width: 768px) {
- 
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 50px;
+    }
+  }
   // about-us
   .about-us {
     .container {
@@ -250,7 +280,12 @@
   }
 }
 @media screen and (min-width: 992px) {
-  
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 25px;
+    }
+  }
   // about-us
   .about-us {
     .container {
@@ -264,6 +299,12 @@
   // hezo-quality
   .hezo-quality {
     padding-bottom: 0;
+  }
+  //hezo-about
+  .hezo-about {
+    .container {
+      margin: 0 auto;
+    }
   }
   // about-us
   .about-us {
